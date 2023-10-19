@@ -1,0 +1,65 @@
+openapi: 3.0.3
+info:
+  title: Email-App-Test-Api
+  version: 1.0.0
+  description: 'TCS is the email marketing platform for developers.'
+servers:
+  - url: https://api.koldmail.com/v1
+security:
+  - bearerAuth: []
+tags:
+  - name: Groups
+    description: Start create groups.
+paths:
+  /groups/create:
+    post:
+      tags:
+        - Groups
+      summary: Create a group
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateGroupRequest'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateGroupResponse'
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+  schemas:
+    CreateGroupRequest:
+      type: object
+      required:
+        - group_name
+      properties:
+        group_name:
+          type: string
+          description: Create a new group.
+    CreateGroupResponse:
+      type: object
+      properties:
+        code:
+          type: integer
+          description: Status code of the request.
+        status:
+          type: string
+          description: Response
+        message:
+          type: string
+          description: Response description.
+        data:
+          type: object
+          properties:
+            group_id:
+              type: string
+              description: Created group ID.
+            group_name:
+              type: string
+              description: Created group name.
