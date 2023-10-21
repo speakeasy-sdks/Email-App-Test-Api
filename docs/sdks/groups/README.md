@@ -24,7 +24,7 @@ import { EmailAppTestApi } from "Email-App-Test-Api";
   });
 
   const res = await sdk.groups.postGroupsCreate({
-    groupName: "revolutionize",
+    groupName: "string",
   });
 
   if (res.statusCode == 200) {

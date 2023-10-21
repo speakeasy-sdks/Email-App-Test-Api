@@ -7,15 +7,15 @@
 </div>
 
 <!-- Start SDK Installation -->
-# SDK Installation
+## SDK Installation
 
-## NPM
+### NPM
 
 ```bash
 npm add https://github.com/speakeasy-sdks/Email-App-Test-Api
 ```
 
-## Yarn
+### Yarn
 
 ```bash
 yarn add https://github.com/speakeasy-sdks/Email-App-Test-Api
@@ -24,8 +24,6 @@ yarn add https://github.com/speakeasy-sdks/Email-App-Test-Api
 
 ## SDK Example Usage
 <!-- Start SDK Example Usage -->
-
-
 ```typescript
 import { EmailAppTestApi } from "Email-App-Test-Api";
 
@@ -35,7 +33,7 @@ import { EmailAppTestApi } from "Email-App-Test-Api";
     });
 
     const res = await sdk.groups.postGroupsCreate({
-        groupName: "revolutionize",
+        groupName: "string",
     });
 
     if (res.statusCode == 200) {
@@ -47,17 +45,15 @@ import { EmailAppTestApi } from "Email-App-Test-Api";
 <!-- End SDK Example Usage -->
 
 <!-- Start SDK Available Operations -->
-# Available Resources and Operations
+## Available Resources and Operations
 
 
-## [groups](docs/sdks/groups/README.md)
+### [groups](docs/sdks/groups/README.md)
 
 * [postGroupsCreate](docs/sdks/groups/README.md#postgroupscreate) - Create a group
 <!-- End SDK Available Operations -->
 
 <!-- Start Dev Containers -->
-
-
 
 <!-- End Dev Containers -->
 
