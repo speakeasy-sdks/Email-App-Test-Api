@@ -1,4 +1,4 @@
-# CreateGroupResponseData
+# Data
 
 
 ## Fields

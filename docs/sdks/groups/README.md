@@ -1,5 +1,5 @@
 # Groups
-(*groups*)
+(*.groups*)
 
 ## Overview
 
@@ -26,6 +26,7 @@ import { EmailAppTestApi } from "Email-App-Test-Api";
   const res = await sdk.groups.postGroupsCreate({
     groupName: "string",
   });
+
 
   if (res.statusCode == 200) {
     // handle response

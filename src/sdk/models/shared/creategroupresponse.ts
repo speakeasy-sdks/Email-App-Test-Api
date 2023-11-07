@@ -5,7 +5,7 @@
 import { SpeakeasyBase, SpeakeasyMetadata } from "../../../internal/utils";
 import { Expose, Type } from "class-transformer";
 
-export class CreateGroupResponseData extends SpeakeasyBase {
+export class Data extends SpeakeasyBase {
     /**
      * Created group ID.
      */
@@ -31,8 +31,8 @@ export class CreateGroupResponse extends SpeakeasyBase {
 
     @SpeakeasyMetadata()
     @Expose({ name: "data" })
-    @Type(() => CreateGroupResponseData)
-    data?: CreateGroupResponseData;
+    @Type(() => Data)
+    data?: Data;
 
     /**
      * Response description.
