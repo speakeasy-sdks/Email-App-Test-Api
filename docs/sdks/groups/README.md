@@ -1,5 +1,5 @@
 # Groups
-(*.groups*)
+(*groups*)
 
 ## Overview
 
@@ -27,7 +27,6 @@ import { EmailAppTestApi } from "Email-App-Test-Api";
     groupName: "string",
   });
 
-
   if (res.statusCode == 200) {
     // handle response
   }
@@ -36,13 +35,17 @@ import { EmailAppTestApi } from "Email-App-Test-Api";
 
 ### Parameters
 
-| Parameter                                                              | Type                                                                   | Required                                                               | Description                                                            |
-| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| `request`                                                              | [shared.CreateGroupRequest](../../models/shared/creategrouprequest.md) | :heavy_check_mark:                                                     | The request object to use for the request.                             |
-| `config`                                                               | [AxiosRequestConfig](https://axios-http.com/docs/req_config)           | :heavy_minus_sign:                                                     | Available config options for making requests.                          |
+| Parameter                                                                  | Type                                                                       | Required                                                                   | Description                                                                |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `request`                                                                  | [shared.CreateGroupRequest](../../sdk/models/shared/creategrouprequest.md) | :heavy_check_mark:                                                         | The request object to use for the request.                                 |
+| `config`                                                                   | [AxiosRequestConfig](https://axios-http.com/docs/req_config)               | :heavy_minus_sign:                                                         | Available config options for making requests.                              |
 
 
 ### Response
 
-**Promise<[operations.PostGroupsCreateResponse](../../models/operations/postgroupscreateresponse.md)>**
+**Promise<[operations.PostGroupsCreateResponse](../../sdk/models/operations/postgroupscreateresponse.md)>**
+### Errors
 
+| Error Object    | Status Code     | Content Type    |
+| --------------- | --------------- | --------------- |
+| errors.SDKError | 400-600         | */*             |

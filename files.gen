@@ -27,11 +27,11 @@ src/sdk/models/errors/index.ts
 src/sdk/models/operations/index.ts
 src/sdk/models/shared/index.ts
 USAGE.md
-docs/models/operations/postgroupscreateresponse.md
-docs/models/shared/data.md
-docs/models/shared/creategroupresponse.md
-docs/models/shared/creategrouprequest.md
-docs/models/shared/security.md
+docs/sdk/models/operations/postgroupscreateresponse.md
+docs/sdk/models/shared/data.md
+docs/sdk/models/shared/creategroupresponse.md
+docs/sdk/models/shared/creategrouprequest.md
+docs/sdk/models/shared/security.md
 docs/sdks/emailapptestapi/README.md
 docs/sdks/groups/README.md
 .gitattributes
