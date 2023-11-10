@@ -2,19 +2,21 @@ configVersion: 1.0.0
 management:
   docChecksum: b6236717e5730e99983261b0bde043f4
   docVersion: 1.0.0
-  speakeasyVersion: 1.116.0
-  generationVersion: 2.185.0
+  speakeasyVersion: 1.118.3
+  generationVersion: 2.187.7
 generation:
   comments: {}
   sdkClassName: Email-App-Test-Api
   repoURL: https://github.com/speakeasy-sdks/Email-App-Test-Api.git
+  usageSnippets:
+    optionalPropertyRendering: withExample
 features:
   typescript:
-    core: 3.1.2
+    core: 3.1.3
     globalSecurity: 2.82.0
     globalServerURLs: 2.82.0
 typescript:
-  version: 0.4.1
+  version: 0.4.2
   author: vimal
   clientServerStatusCodesAsErrors: true
   flattenGlobalSecurity: true
