@@ -1,10 +1,10 @@
-<!-- Start SDK Example Usage -->
+<!-- Start SDK Example Usage [usage] -->
 ```typescript
 import { EmailAppTestApi } from "Email-App-Test-Api";
 
-(async () => {
+async function run() {
     const sdk = new EmailAppTestApi({
-        bearerAuth: "",
+        bearerAuth: "<YOUR_BEARER_TOKEN_HERE>",
     });
 
     const res = await sdk.groups.postGroupsCreate({
@@ -14,7 +14,9 @@ import { EmailAppTestApi } from "Email-App-Test-Api";
     if (res.statusCode == 200) {
         // handle response
     }
-})();
+}
+
+run();
 
 ```
-<!-- End SDK Example Usage -->
+<!-- End SDK Example Usage [usage] -->

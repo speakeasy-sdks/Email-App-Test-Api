@@ -18,9 +18,9 @@ Create a group
 ```typescript
 import { EmailAppTestApi } from "Email-App-Test-Api";
 
-(async() => {
+async function run() {
   const sdk = new EmailAppTestApi({
-    bearerAuth: "",
+    bearerAuth: "<YOUR_BEARER_TOKEN_HERE>",
   });
 
   const res = await sdk.groups.postGroupsCreate({
@@ -30,7 +30,9 @@ import { EmailAppTestApi } from "Email-App-Test-Api";
   if (res.statusCode == 200) {
     // handle response
   }
-})();
+}
+
+run();
 ```
 
 ### Parameters
