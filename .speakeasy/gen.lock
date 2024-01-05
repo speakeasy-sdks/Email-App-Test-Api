@@ -1,0 +1,55 @@
+lockVersion: 2.0.0
+id: 16740f43-a741-4c3c-84de-4713e9ee9a8e
+management:
+  docChecksum: b6236717e5730e99983261b0bde043f4
+  docVersion: 1.0.0
+  speakeasyVersion: internal
+  generationVersion: 2.225.2
+  releaseVersion: 0.5.1
+  configChecksum: f36080d864b5bc9a5cd3ea8e8d443a4b
+  repoURL: https://github.com/speakeasy-sdks/Email-App-Test-Api.git
+  repoSubDirectory: .
+  installationURL: https://github.com/speakeasy-sdks/Email-App-Test-Api
+features:
+  typescript:
+    core: 3.4.1
+    globalSecurity: 2.82.2
+    globalServerURLs: 2.82.1
+generatedFiles:
+  - src/sdk/groups.ts
+  - src/sdk/sdk.ts
+  - .eslintrc.yml
+  - jest.config.js
+  - package-lock.json
+  - package.json
+  - src/index.ts
+  - src/internal/utils/contenttype.ts
+  - src/internal/utils/headers.ts
+  - src/internal/utils/index.ts
+  - src/internal/utils/pathparams.ts
+  - src/internal/utils/queryparams.ts
+  - src/internal/utils/requestbody.ts
+  - src/internal/utils/retries.ts
+  - src/internal/utils/security.ts
+  - src/internal/utils/utils.ts
+  - src/sdk/index.ts
+  - src/sdk/models/errors/sdkerror.ts
+  - src/sdk/types/index.ts
+  - src/sdk/types/rfcdate.ts
+  - tsconfig.json
+  - src/sdk/models/operations/postgroupscreate.ts
+  - src/sdk/models/shared/creategroupresponse.ts
+  - src/sdk/models/shared/creategrouprequest.ts
+  - src/sdk/models/shared/security.ts
+  - src/sdk/models/errors/index.ts
+  - src/sdk/models/operations/index.ts
+  - src/sdk/models/shared/index.ts
+  - docs/sdk/models/operations/postgroupscreateresponse.md
+  - docs/sdk/models/shared/data.md
+  - docs/sdk/models/shared/creategroupresponse.md
+  - docs/sdk/models/shared/creategrouprequest.md
+  - docs/sdk/models/shared/security.md
+  - docs/sdks/emailapptestapi/README.md
+  - docs/sdks/groups/README.md
+  - USAGE.md
+  - .gitattributes
