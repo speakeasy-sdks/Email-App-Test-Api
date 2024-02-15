@@ -4,15 +4,15 @@ management:
   docChecksum: b6236717e5730e99983261b0bde043f4
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.225.2
-  releaseVersion: 0.5.1
-  configChecksum: f36080d864b5bc9a5cd3ea8e8d443a4b
+  generationVersion: 2.258.2
+  releaseVersion: 0.5.2
+  configChecksum: 88d8ddffe21110e4d64dfe269f8c05be
   repoURL: https://github.com/speakeasy-sdks/Email-App-Test-Api.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/Email-App-Test-Api
 features:
   typescript:
-    core: 3.4.1
+    core: 3.4.7
     globalSecurity: 2.82.2
     globalServerURLs: 2.82.1
 generatedFiles:

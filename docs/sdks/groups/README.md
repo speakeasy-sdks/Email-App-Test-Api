@@ -24,7 +24,7 @@ async function run() {
   });
 
   const res = await sdk.groups.postGroupsCreate({
-    groupName: "string",
+    groupName: "<value>",
   });
 
   if (res.statusCode == 200) {
