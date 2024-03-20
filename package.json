@@ -1,6 +1,6 @@
 {
   "name": "Email-App-Test-Api",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "author": "vimal",
   "scripts": {
     "prepare": "tsc --build",

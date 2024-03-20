@@ -3,17 +3,17 @@ id: 16740f43-a741-4c3c-84de-4713e9ee9a8e
 management:
   docChecksum: b6236717e5730e99983261b0bde043f4
   docVersion: 1.0.0
-  speakeasyVersion: 1.207.1
-  generationVersion: 2.280.6
-  releaseVersion: 0.5.3
-  configChecksum: cf35e3e9468150c3ce41a61742bd7ee5
+  speakeasyVersion: 1.213.0
+  generationVersion: 2.283.1
+  releaseVersion: 0.5.4
+  configChecksum: 7c6fef4bbb3dab6fdb93bb7f33b81b6c
   repoURL: https://github.com/speakeasy-sdks/Email-App-Test-Api.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/Email-App-Test-Api
 features:
   typescript:
     core: 3.4.8
-    globalSecurity: 2.82.4
+    globalSecurity: 2.82.5
     globalServerURLs: 2.82.2
 generatedFiles:
   - src/sdk/groups.ts
